@@ -10,7 +10,7 @@ interface Props {
 }
 const App = (props: Props) => {
   const {data} = props;
-
+  console.log("dasd")
   return (
     <View>
       <AddNewTask />
